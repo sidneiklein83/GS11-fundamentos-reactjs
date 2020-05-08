@@ -8,6 +8,7 @@ import Import from '../pages/Import';
 const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={Dashboard} />
+    <Route path="/dashboard" component={Dashboard} />
     <Route path="/import" component={Import} />
   </Switch>
 );
